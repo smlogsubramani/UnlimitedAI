@@ -12,7 +12,7 @@ const Home = () =>{
                     <p className="para">The agentic AI Platform</p>
                     {/* <h2 className="header">We are making the Technology come closer to you</h2> */}
                     <p className="subcontent">Empowering lives through innovation—The Agentic AI Platform makes advanced technology accessible and personal.</p>
-                    <a href="/signup"><button className="btn-discover">DISCOVER NOW</button></a> 
+                    <Link class="nav-link" to="/signup"><button className="btn-discover">DISCOVER NOW</button></Link>
                 </div>
                 <div className="col">
                     <img className="image" src={bg} width="400" height="400" alt="" />
