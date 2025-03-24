@@ -1,4 +1,4 @@
-import {Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import logo from "../Assest/ubtinxt.png"
 import "../styles/Index.css"
 
@@ -14,16 +14,16 @@ const Navbar= () => {
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/">Home</a>
+                    <Link class="nav-link" to="/">Home</Link> 
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#servicecontainers">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/usecase">Products</a>  
+                    <Link class="nav-link" to="/usecase">Products</Link> 
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/" >About Us</a>
+                    <Link class="nav-link" to="/">About Us</Link>
                 </li>
                 <li class="nav-item">
                 <Link class="nav-link" to="/signup">login</Link>
