@@ -34,7 +34,7 @@ const Usecase = () => {
                     <h1 className="card-number">03</h1>
                     <h1 className="cardheader">ModelDriven Agent</h1>
                     <p className="cardpara-usecase">Our Model-Driven Copilot empowers businesses with data-driven insights, automating workflows and enhancing decision-making. It's a tailored solution designed to drive precision and innovation in every process.</p>
-                    <button className="cardbtn">See details</button>
+                    <a href="https://copilotstudio.microsoft.com/environments/e3ce6a5b-ed6e-e60e-af3e-95da64019813/bots/crd5b_modelDrivenAgent/canvas?__version__=2&enableFileAttachment=true"><button className="cardbtn">See details</button></a> 
                     </div>
                 </div>
                 <div className="col-md-4">
@@ -50,7 +50,7 @@ const Usecase = () => {
                     <h1 className="card-number">05</h1>
                     <h1 className="cardheader">Legal Agent</h1>
                     <p className="cardpara-usecase">"Revolutionize your legal processes with the Legal Chain AI Copilot model—designed to streamline, automate, and enhance accuracy in managing legal documentation and workflows. Empower your operations with smart, efficient solutions! </p>
-                    <button className="cardbtn">See details</button>
+                    <a href="https://copilotstudio.microsoft.com/environments/Default-008502d6-3f79-46f0-ab37-9354e3fe80ff/bots/cr28f_lawAiAssistant/canvas?__version__=2&enableFileAttachment=true"><button className="cardbtn">See details</button></a> 
                     </div>
                 </div>
                 <div className="col-md-4">
