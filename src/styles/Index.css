@@ -202,6 +202,10 @@
     height: 100%; /* Optional: set the height of the column */
 }
 
+#servicecontainers{
+    margin-bottom: 15%;    
+}
+
 
 .cardcontainer {
     outline: 1px solid rgb(236, 220, 255);
@@ -284,4 +288,12 @@
 }
 
 
+/* Services */
 
+.accordion-button{
+    border: 1px solid rgb(59, 59, 59);
+    font-weight: 600;
+    background-color: darkblue;
+    color: white;
+    font-size: large;
+}
