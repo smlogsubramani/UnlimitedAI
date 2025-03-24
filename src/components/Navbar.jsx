@@ -1,3 +1,4 @@
+import {Link } from "react-router-dom";
 import logo from "../Assest/ubtinxt.png"
 import "../styles/Index.css"
 
@@ -25,7 +26,7 @@ const Navbar= () => {
                     <a class="nav-link" href="/" >About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/signup">Login</a>
+                <Link class="nav-link" to="/signup">login</Link>
                 </li>
             </ul>
         </div>
