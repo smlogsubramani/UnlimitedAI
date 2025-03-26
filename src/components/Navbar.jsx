@@ -79,18 +79,16 @@ const Navbar = ({ loggedIn }) => {
                     Features
                   </a>
                 </li>
-                {loggedIn && (
                   <li className="nav-item">
                     <Link className="nav-link" to="/usecase">
                       Products
                     </Link>
                   </li>
-                )}
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <Link className="nav-link" to="/">
                     About Us
                   </Link>
-                </li> */}
+                </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/signup">
                     Login
