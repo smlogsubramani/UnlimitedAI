@@ -10,7 +10,7 @@ const Home = () =>{
             <div className="row">
                 <div className="col-md-7">
                     <img className="topheaders" src={topheaderbg} width="350" height="80" alt="" />
-                    <p className="para">The agentic AI Platform</p>
+                    <p className="para">The agenticAI Platform</p>
                     {/* <h2 className="header">We are making the Technology come closer to you</h2> */}
                     <p className="subcontent">Empowering lives through innovation—The Agentic AI Platform makes advanced technology accessible and personal.</p>
                     <Link class="nav-link" to="/signup"><button className="btn-discover">DISCOVER NOW</button></Link>
