@@ -1,7 +1,7 @@
 import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-import HomePage from "./pages/Home"
+import Home from "./pages/Home"
 import About from "./pages/About"
 import Service from "./pages/Service"
 import Usecase from "./pages/Usecase"
@@ -9,7 +9,7 @@ import Usecase from "./pages/Usecase"
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <HomePage/>
+        element: <Home/>
     },
     {
         path: "/about",
