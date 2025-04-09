@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaList } from "react-icons/fa";
 import UnlimitedLogo from '../assets/unlimitedAI.png';
-import SignInPopup from './SignInPopUp';
 
 const Navbar = ({ mobileMenuOpen, setMobileMenuOpen, setShowSignIn }) => {
   return (

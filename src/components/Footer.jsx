@@ -30,7 +30,7 @@ const Footer = () => {
         <div className=" footer-section  contact-section">
           <div className=" contact-info">
             <ul className=" quick-links">
-              <li><a href="" id="Headings">Quick Links</a></li><br />
+              <li><a href="/" id="Headings">Quick Links</a></li><br />
               <li><a href="/">Home</a></li>
               <li><a href="/about">About</a></li>
               <li><a href="/service">Services</a></li>

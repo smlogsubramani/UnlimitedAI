@@ -1,11 +1,11 @@
 import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-
+ 
 import Home from "./pages/Home"
 import About from "./pages/About"
-import Service from "./pages/Service"
-import Usecase from "./pages/Usecase"
-
+import Services from "./pages/Service"
+import UseCase from "./pages/Usecase"
+ 
 const router = createBrowserRouter([
     {
         path: "/",
@@ -17,20 +17,20 @@ const router = createBrowserRouter([
     },
     {
       path: "/service",
-      element: <Service/>
+      element: <Services/>
     },
     {
       path: "/Usecase",
-      element: <Usecase/>
+      element: <UseCase/>
     },
   ]);
-
+ 
 const Router = () => (
     <div>
         <RouterProvider router={router} />
     </div>
 );
-
+ 
 function App() {
   return (
     <div className="App">
@@ -38,5 +38,5 @@ function App() {
     </div>
   );
 }
-
+ 
 export default App;
